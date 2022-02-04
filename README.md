@@ -1,4 +1,4 @@
-# MixedRealityRobotics
+# Mista
 
 Setup Robot Studio: 
 1. Ensure Robot Controller is functioning by viewing if Controller Status is green. Ensure you are connected to same network as Hololens. 
