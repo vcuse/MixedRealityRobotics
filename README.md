@@ -1,4 +1,4 @@
-# MixedRealityRobotics
+# Mista :sparkler:
 
 Setup Robot Studio: 
 1. Ensure Robot Controller is functioning by viewing if Controller Status is green. Ensure you are connected to same network as Hololens. 
@@ -15,3 +15,5 @@ Setup Robot Studio:
   -Once the Motors have been turned on successfully, clock on the play button on the bottom right of the window. This action will start the EGM/UDP server. 
   
   Note, if the robot is returned to home position while the Motor's are on, a guard state will be triggered, and the controller will have to restart in order to undo this guard state.
+  
+ Notes to self:  Make sure to sign into the unity hub. Clarify the scene that needs to be opened first. 
