@@ -19,6 +19,8 @@ using Windows.Networking.Connectivity;
 using Windows.Networking;
 #endif
 
+namespace communication 
+{
  [System.Serializable]
 
 public class UDPCommunication : MonoBehaviour
@@ -27,8 +29,8 @@ public class UDPCommunication : MonoBehaviour
     //port number corresponds to hollolens UDP port and Robot Controller UDP port
     //externalIP corresponds to IP address of PC running robot controller
     MemoryStream memoryStream;
-    private string port = "6511";
-    private string externalIP = "192.168.0.7";
+    private string port;
+    private string externalIP;
 
     //Initiate variables utilized to build UDP data packets
     private uint seqNumber = 0;
@@ -38,7 +40,7 @@ public class UDPCommunication : MonoBehaviour
 
     // Initiate GameObject which acts a guide for virtual robot
     // Initiate EgmRobot which will be used to build EGMSensor datapacket
-    public GameObject cube;
+   // public GameObject cube;
     private EgmRobot robot;
 
     //Initiate variables used in GetInformation() function - denote the robot's current position
@@ -76,7 +78,15 @@ public class UDPCommunication : MonoBehaviour
 
 
     
-    async void Start()
+    public UDPCommunication(string ControllerIP, string ControllerPort)
+    {
+
+        port = ControllerPort;
+        externalIP = ControllerIP;
+       SetupServer();
+
+    }
+    public async void SetupServer()//async void Start()
     /*
 
     Summary: Runs when app is first opened in Hololens. Opens new Datagram socket, finds IP address
@@ -84,7 +94,7 @@ public class UDPCommunication : MonoBehaviour
 
     */
     {
-      
+
         socket = new DatagramSocket();
         socket.MessageReceived += Socket_MessageReceived;
 
@@ -110,21 +120,21 @@ public class UDPCommunication : MonoBehaviour
 
     }
 
-    void Update()
-    /* 
+   /* void Update()
+     
 
     Summary: Reads cube's current position and assigns this position to variables. 
     Calls cubeMove() function to send cube's position to robot controller and move robot.
     Method is called once per frame. 
 
-    */
+    /
     {
         while (ExecuteOnMainThread.Count > 0) //???
         {
             ExecuteOnMainThread.Dequeue().Invoke();
 
         }
-        //positions of cube
+        /*positions of cube
         double cz = -cube.transform.position.z + .5 ; //initialize variables above
         double cx = cube.transform.position.x ;
         double cy = cube.transform.position.y ;  
@@ -132,7 +142,8 @@ public class UDPCommunication : MonoBehaviour
             60, cube.transform.eulerAngles.z - 180);
         
         
-    }
+    }*/
+   
 
 
 
@@ -285,6 +296,11 @@ public class UDPCommunication : MonoBehaviour
     */
 
     {
+         while (ExecuteOnMainThread.Count > 0) //???
+        {
+            ExecuteOnMainThread.Dequeue().Invoke();
+
+        }
         
         currentY = (x*1000) + yc;//yC + deviation;
         currentX = (z*1000) + xc;//xC;
@@ -359,6 +375,7 @@ public class UDPCommunication : MonoBehaviour
 
 #endif
 } 
+}
 
 
 
