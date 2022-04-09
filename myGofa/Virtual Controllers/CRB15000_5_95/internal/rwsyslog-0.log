@@ -1,8 +1,0 @@
-<13>Feb  4 14:32:15 CRB15000_5_95 ABB-UAL:01:Log-out (user logged out)|-|Socket=12652|1210|00501|-|robot|	501
-<13>Feb  4 14:32:18 CRB15000_5_95 ABB-UAL:01:Log-in successful|-|UAS_UID=1769483|1110|00502|-|robot|Default User	502
-<13>Feb  4 14:32:18 CRB15000_5_95 ABB-UAL:01:Log-in successful|-|UAS_UID=1835020|1110|00503|-|robot|Default User	503
-<13>Feb  4 14:36:46 CRB15000_5_95 ABB-UAL:01:Log-out (user logged out)|-|Socket=13780|1210|00504|-|robot|	504
-<13>Feb  4 14:36:53 CRB15000_5_95 ABB-UAL:01:Log-in successful|-|UAS_UID=1900556|1110|00505|-|robot|Admin	505
------BEGIN DIGEST-----
-Ww5zjOSGcvr/9TdJ4ndWSi+xYIJjLt1+DdRTPRPi9vqSYamSzDCQUCCt0lWRftpfIrJ0Lg==
------END DIGEST-----
