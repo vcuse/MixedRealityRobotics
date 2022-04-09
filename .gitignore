@@ -7,18 +7,18 @@
 # =============== #
 # Unity generated #
 # =============== #
-Hololens Test/[Ll]ibrary/
-Hololens Test/[Tt]emp/
-Hololens Test/[Oo]bj/
-Hololens Test/[Bb]uild/
-Hololens Test/[Bb]uilds/
-Hololens Test/Assets/AssetStoreTools*
-Hololens Test/Bin/
-Hololens Test/UnityGenerated/
-Hololens Test/Assets/AssetStoreTools*
+Mista/[Ll]ibrary/
+Mista/[Tt]emp/
+Mista/[Oo]bj/
+Mista/[Bb]uild/
+Mista/[Bb]uilds/
+Mista/Assets/AssetStoreTools*
+Mista/Bin/
+Mista/UnityGenerated/
+Mista/Assets/AssetStoreTools*
 
 #Unity UWP generated (UPW folder might be partialy includet in the future see Microsoft/GalaxyExplorer/)
-Hololens Test/UWP/
+Mista/UWP/
 project.json
 project.lock.json
 
