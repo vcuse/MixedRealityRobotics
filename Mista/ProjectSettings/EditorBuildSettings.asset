@@ -6,44 +6,47 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/Experiment (Jogging)/GofaConversation.unity
+    path: Assets/Scenes/Jogging/GofaConversation.unity
     guid: 9bba11f6071a18b4fb6fd1111b81f5c8
   - enabled: 0
-    path: Assets/Scenes/Experiment (Interfaces)/BoundingBox.unity
+    path: Assets/Scenes/Interfaces/BoundingBox.unity
     guid: 6b758f67606734244887e174edbcbe8a
   - enabled: 0
-    path: Assets/Scenes/Experiment (Interfaces)/BoundingBox.unity
+    path: Assets/Scenes/Interfaces/BoundingBox.unity
     guid: 6b758f67606734244887e174edbcbe8a
   - enabled: 0
-    path: Assets/Scenes/Experiment (Interfaces)/JoyStick.unity
+    path: Assets/Scenes/Interfaces/JoyStick.unity
     guid: cf99a12139fb99f459b237acfb32bfb5
   - enabled: 0
-    path: Assets/Scenes/Experiment (Interfaces)/Buttons.unity
+    path: Assets/Scenes/Interfaces/Buttons.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
-    path: Assets/Scenes/Experiment (Interfaces)/JoyStick.unity
+  - enabled: 0
+    path: Assets/Scenes/Interfaces/JoyStick.unity
     guid: cf99a12139fb99f459b237acfb32bfb5
   - enabled: 0
-    path: Assets/Scenes/Experiment (Interfaces)/Buttons.unity
+    path: Assets/Scenes/Interfaces/Buttons.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 0
-    path: Assets/Scenes/Experiment (Interfaces)/Sliders.unity
+    path: Assets/Scenes/Interfaces/Sliders.unity
     guid: d271d3672e01f48478ef9b7a1f3b7a52
   - enabled: 0
-    path: Assets/Scenes/Experiment (Jogging)/Vectors.unity
+    path: Assets/Scenes/Jogging/Vectors.unity
     guid: d863096709cf383448dc0d8d874c62db
   - enabled: 0
-    path: Assets/Scenes/Experiment (Interfaces)/ObjectManipulator.unity
+    path: Assets/Scenes/Interfaces/ObjectManipulator.unity
     guid: 440e1474e081870469793cd16b6958ed
   - enabled: 0
-    path: Assets/Scenes/Experiment (Interfaces)/ObjectManipulator.unity
+    path: Assets/Scenes/Interfaces/ObjectManipulator.unity
     guid: 440e1474e081870469793cd16b6958ed
   - enabled: 0
-    path: Assets/Scenes/Experiment (Jogging)/TalkToGofa.unity
+    path: Assets/Scenes/Jogging/TalkToGofa.unity
     guid: 0119566756a7f374dbba745269d32f71
   - enabled: 0
-    path: Assets/Scenes/Experiment (Interfaces)/Trial.unity
+    path: Assets/Scenes/Interfaces/Trial.unity
     guid: 6bbbeda5a3bd0ae419e2786058fdc620
+  - enabled: 1
+    path: Assets/Scenes/Locations/Explorer.unity
+    guid: 2f0c505f6843e1a44885c2d57bbea206
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 8a48e49939b84f94a86fbb3de6124a55, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 4429835dc1b4fbe439ef5b41d3d7e116, type: 2}
