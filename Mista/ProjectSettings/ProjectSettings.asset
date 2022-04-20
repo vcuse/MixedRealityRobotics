@@ -187,6 +187,9 @@ PlayerSettings:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: -6221602468229837674, guid: 4429835dc1b4fbe439ef5b41d3d7e116, type: 2}
   - {fileID: -1785261529117579392, guid: 8a48e49939b84f94a86fbb3de6124a55, type: 2}
   - {fileID: 0}
@@ -728,7 +731,7 @@ PlayerSettings:
   cloudServicesEnabled:
     Analytics: 0
     Build: 0
-    Collab: 1
+    Collab: 0
     Game Performance: 0
     Purchasing: 0
     UDP: 0

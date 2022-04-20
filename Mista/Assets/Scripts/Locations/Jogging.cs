@@ -4,7 +4,6 @@ using UnityEngine;
 public class Jogging : MonoBehaviour
 {
     public GameObject axis;
-    public Vector3 rotation;
     public PinchSlider slider;
 
     void Start()
@@ -17,10 +16,10 @@ public class Jogging : MonoBehaviour
         
     }
 
-    public void rotateAxis()
+    public void rotateAxis(float degrees)
     {
         float speed = slider.SliderValue;
-        axis.transform.Rotate((speed - 0.5f) * rotation.x, (speed - 0.5f) * rotation.y, (speed - 0.5f) * rotation.z, Space.Self);
+        axis.transform.Rotate((speed - 0.5f) * degrees, 0, 0, Space.Self);
     }
 
 }
