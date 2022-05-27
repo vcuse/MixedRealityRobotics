@@ -1,7 +1,6 @@
 # Mista :sparkler:
 
-_TODO: expand summary; See symposium board abstract and introduction._
-- Goal: Evaluate the use of Mixed Reality as an alternative to control robots with precision
+Experiment Goal: Evaluate the use of Mixed Reality as an alternative to control robots with precision
 - Developed for the GoFa™ CRB 15000.
 
 ## :card_index_dividers:	Files
