@@ -70,6 +70,7 @@ _TODO: Is there a more efficent way to implement the project?_
 ### Setting Up RobotStudio
 
 [ABB Robot Studio Operating Manual](https://library.e.abb.com/public/58b48849b2c545f38cb1d85267032091/3HAC032104%20OM%20RobotStudio-en.pdf)
+
 ["RobotStudio Handbook" by Aprameya](https://www.ardavan.io/post/robotstudio-handbook)
 
 _TODO: Not sure how to update this section. - Haley_
