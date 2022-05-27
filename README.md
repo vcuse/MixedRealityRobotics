@@ -113,4 +113,4 @@ If you need our help or are interested in being part of our community, do not he
 
 ---
 
-Last Updated: May 24th, 2022 - Haley Currence
+Last Updated: May 27th, 2022 - Haley Currence
