@@ -11,8 +11,8 @@ Experiment Goal: Evaluate the use of Mixed Reality as an alternative to control 
         - `MRTK` : Destination of all shaders associated with the interfaces included in the Mixed Reality Toolkit.
     - `Materials` : Contains the materials used to define the appearence of objects used in scenes. ([On Materials](https://docs.unity3d.com/Manual/Materials.html))
     - `Objects and Prefabs` : Contains all Unity GameObjects and interfaces created for use in the project. ([On GameObjects](https://docs.unity3d.com/Manual/GameObjects.html); [On Prefabs](https://docs.unity3d.com/Manual/Prefabs.html))
-    - `Packages` : _???_
-    - `RobotStudio` : _??? (Something to do with the RobotStudio)_
+    - `Packages` : Destination of the packages being used to implement communication between the Hololens application and the GoFa™ controller.
+    - `RobotStudio` : Controllers for the GoFa™ CRB 15000.
     - `Scenes` : Contains all available scenes created within the project. ([On Scenes](https://docs.unity3d.com/Manual/CreatingScenes.html))
     - `Scripts` : Destination of all C# scripts that describe and define the behavior of the project interfaces and how the application communicates positional data to the ABB GoFa™.
     - `TextMeshPro` : Contains all resources associated with the TextMeshPro plugin.
@@ -68,6 +68,9 @@ Experiment Goal: Evaluate the use of Mixed Reality as an alternative to control 
 _TODO: Is there a more efficent way to implement the project?_
 
 ### Setting Up RobotStudio
+
+[ABB Robot Studio Operating Manual](https://library.e.abb.com/public/58b48849b2c545f38cb1d85267032091/3HAC032104%20OM%20RobotStudio-en.pdf)
+["RobotStudio Handbook" by Aprameya](https://www.ardavan.io/post/robotstudio-handbook)
 
 _TODO: Not sure how to update this section. - Haley_
 
