@@ -1,7 +1,7 @@
 # Mista :sparkler:
 
 Experiment Goal: Evaluate the use of Mixed Reality as an alternative to control robots with precision
-- Developed for the GoFa™ CRB 15000.
+- Developed for the GoFa™ CRB 15000 with the Onrobot RG6 Gripper
 
 ## :card_index_dividers:	Files
 - `Assets` 
@@ -45,6 +45,7 @@ Experiment Goal: Evaluate the use of Mixed Reality as an alternative to control 
 ### Technologies
 - [Microsoft Hololens 2](https://www.microsoft.com/en-us/hololens/hardware?SilentAuth=1)
 - [ABB GoFa™ CRB 15000](https://new.abb.com/products/robotics/collaborative-robots/crb-15000)
+- [Onrobot RG6 Gripper](https://onrobot.com/us/products/rg6-gripper)
 - [ABB RobotStudio®](https://new.abb.com/products/robotics/robotstudio)
 - [abb_libegm](https://github.com/ros-industrial/abb_libegm) by the [ROS Industrial Project](https://rosindustrial.org/)
 - [Windows Networking WNet Functions](https://docs.microsoft.com/en-us/windows/win32/wnet/about-windows-networking)
