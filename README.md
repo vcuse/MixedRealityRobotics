@@ -52,8 +52,6 @@ Experiment Goal: Evaluate the use of Mixed Reality as an alternative to control 
 - [ABB GoFa™ CRB 15000](https://new.abb.com/products/robotics/collaborative-robots/crb-15000)
 - [Onrobot RG6 Gripper](https://onrobot.com/us/products/rg6-gripper)
 - [ABB RobotStudio®](https://new.abb.com/products/robotics/robotstudio)
-- [abb_libegm](https://github.com/ros-industrial/abb_libegm) by the [ROS Industrial Project](https://rosindustrial.org/)
-- [Windows Networking WNet Functions](https://docs.microsoft.com/en-us/windows/win32/wnet/about-windows-networking)
 - [Unity version 2021.1.28f1 (or higher)](https://unity.com/products/unity-platform)
   - [Microsoft Mixed Reality Toolkit](https://docs.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/?view=mrtkunity-2021-05)
   - [OpenXR Mixed Reality Plugin](https://docs.unity3d.com/Packages/com.unity.xr.openxr@1.4/manual/index.html)
