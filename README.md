@@ -69,15 +69,11 @@ Experiment Goal: Evaluate the use of Mixed Reality as an alternative to control 
 3. Fork and/or download the current version of Mista using the GitHub tools above. 
 4. Copy all assets from your downloaded Mista project's `Assets` folder into your configured Unity MR project's `Assets` folder.
 
-_TODO: Is there a more efficent way to implement the project?_
-
 ### Setting Up RobotStudio
 
 [ABB Robot Studio Operating Manual](https://library.e.abb.com/public/58b48849b2c545f38cb1d85267032091/3HAC032104%20OM%20RobotStudio-en.pdf)
 
 ["RobotStudio Handbook" by Aprameya](https://www.ardavan.io/post/robotstudio-handbook)
-
-_TODO: Not sure how to update this section. - Haley_
 
 1. Ensure Robot Controller is functioning by viewing if Controller Status is green. Ensure you are connected to same network as Hololens. 
 
